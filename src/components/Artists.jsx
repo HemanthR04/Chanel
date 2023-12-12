@@ -22,7 +22,7 @@ function Artists() {
                     start:"top bottom",
                     end:"bottom center ",
                     scrub:true,
-                    markers:true
+                    markers:false
                 }
             }
         )
@@ -30,13 +30,14 @@ function Artists() {
 
     return (
         <>
-            <div ref={ref} className="artist-wrapper relative w-full h-full flex items-center justify-between ">
+            <div ref={ref} className="artist-wrapper relative w-full h-full flex flex-col items-center justify-between ">
                 <div className="overylay jennie flex flex-col ">
 
                     <img src={J2} alt="" className='w-1/2' />
                     <img src={J3} alt="" className='w-1/2' />
                 </div>
-                <p className='text-BlackBG font-semibold text-8xl mx-24' >JENNIE KIM</p>
+                <p className='text-BlackBG font-semibold absolute top-[50vh] right-[0vh] text-8xl mx-24' >JENNIE KIM</p>
+                
             </div>
         </>
     );

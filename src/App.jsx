@@ -5,6 +5,7 @@ import Lenis from '@studio-freight/lenis';
 import { useRef,useEffect } from 'react';
 import {gsap} from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Artists2 from "./components/Artists2";
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -27,16 +28,18 @@ function App() {
         gsap.fromTo(
             element.querySelector(".wrapper"),
             {
-                backgroundColor:"#121212"
+                backgroundColor:"#121212",
+                color:"#121212"
             },
             {
-                backgroundColor:"#FFFFFF",
+                backgroundColor:"#FFFFF3",
+                color:"#FFFFF3",
                 scrollTrigger:{
                     trigger:element.querySelector(".jennie"),
                     start:"top bottom",
                     end:"bottom center ",
                     scrub:true,
-                    markers:true
+                    markers:false
                 }
             }
         )
@@ -44,12 +47,13 @@ function App() {
   return ( 
     <>
     
-    <div ref={ref} className="main bg-black">
+    <div ref={ref} className="main bg-black text-black">
       <div className="wrapper">
     
     <Intro/>
     <Metires/>
     <Artists />
+    <Artists2/>
     
     </div>
     </div>
