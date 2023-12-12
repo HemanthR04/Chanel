@@ -30,7 +30,7 @@ function App() {
                 backgroundColor:"#121212"
             },
             {
-                backgroundColor:"#F0F0F0",
+                backgroundColor:"#FFFFFF",
                 scrollTrigger:{
                     trigger:element.querySelector(".jennie"),
                     start:"top bottom",
@@ -50,7 +50,7 @@ function App() {
     <Intro/>
     <Metires/>
     <Artists />
-    <Intro/>
+    
     </div>
     </div>
     </>
