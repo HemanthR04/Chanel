@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundColor:{
-        BlackBG:"#121212"
+        BlackBG:"#121212",
+        Offwhite:"#FFFFF3"
       },
       textColor:{
         Offwhite:"#FFFFF3"

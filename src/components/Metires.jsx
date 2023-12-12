@@ -21,7 +21,7 @@ const HorizontalScrollCarousel = () => {
         target: targetRef,
     });
 
-    const x = useTransform(scrollYProgress, [0.2, 1], ["4%", "-76%"]);
+    const x = useTransform(scrollYProgress, [0.2, 1], ["4%", "-77%"]);
 
     return (
         <section ref={targetRef} className="relative h-[300vh]">
@@ -54,9 +54,7 @@ const HorizontalScrollCarousel = () => {
                         
                     </div>
 
-                    {/* {cards.map((card) => {
-            return <Card card={card} key={card.id} />;
-          })} */}
+                    
                 </motion.div>
             </div>
         </section>
