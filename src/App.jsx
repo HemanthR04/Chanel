@@ -1,3 +1,4 @@
+import Artists from "./components/Artists";
 import Intro from "./components/Intro";
 import Metires from "./components/Metires";
 import Lenis from '@studio-freight/lenis'
@@ -18,7 +19,7 @@ function App() {
     <>
     <Intro/>
     <Metires/>
-    <Intro/>
+    <Artists/>
     </>
    );
 }

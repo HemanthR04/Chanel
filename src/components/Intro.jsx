@@ -16,14 +16,12 @@ function Intro() {
             <section className="hero  h-screen w-full overflow-hidden">
                 <motion.div className="wrapper  relative"
                     initial={{
-                        x: 0,
-                        y: 100,
+                        
                         opacity: 0
                     }}
 
                     animate={{
-                        x: 0,
-                        y: 0,
+                       
                         opacity: 1
                     }}
                     transition={{
