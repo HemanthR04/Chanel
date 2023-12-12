@@ -9,9 +9,9 @@ import chanel4 from '../assets/Chanel4.webp';
 const Metires = () => {
     return (
         <div>
-            
+
             <HorizontalScrollCarousel />
-           
+
         </div>
     );
 };
@@ -39,24 +39,21 @@ const HorizontalScrollCarousel = () => {
                         <img src={chanel1} alt="" className="rounded-3xl" />
                     </div>
                     <div className="metires-content w-[700px] sm:w-[1200px]">
-                    <img src={chanel2} alt="" className="rounded-3xl" />
+                        <img src={chanel2} alt="" className="rounded-3xl" />
                     </div>
                     <div className="metires-content w-[505px]">
-                    <img src={chanel3} alt="" className="rounded-3xl" />
+                        <img src={chanel3} alt="" className="rounded-3xl" />
                     </div>
                     <div className="metires-content w-[505px]">
-                    <img src={chanel4} alt="" className="rounded-3xl" />
+                        <img src={chanel4} alt="" className="rounded-3xl" />
                     </div>
                     <div className="metires-content sm:w-[1200px]">
-                        
-                        <p className=" p-8 w-[390px] sm:w-[1200px] text-[12px] sm:text-[36px] font-black uppercase text-Offwhite  text-center">
-                        ALIVE WITH A VIBRANT POP SPIRIT BORN IN MANCHESTER AND KEPT ALIVE ACROSS THE DECADES, THE CHANEL 2023/34 MÉTIERS D’ART SHOW EMBRACES THE CREATIVE DIALOGUE BETWEEN GREAT BRITAIN AND THE HOUSE, SO DEAR TO GABRIELLE CHANEL AND TODAY TO ARTISTIC DIRECTOR OF THE FASHION COLLECTIONS, VIRGINIE VIARD. A TESTIMONY TO THE ARTISANAL PRECISION OF THE MÉTIERS D’ART, THE COLLECTION SHIMMERS AND SHINES WITH PLAYFUL NODS TO BRITISH MUSIC CULTURE AND CHANEL'S ART OF TAILORING. CONTRASTING AUTUMNAL AND VIVID COLOURS, ENCRUSTED TEXTURES, PURE SILHOUETTES AND CAREFREE ATTITUDES INVOKE A SOFT YET AUDACIOUS FEMININITY.
-                        </p>
-                        
-                    </div>
 
-                    
-                </motion.div>
+                        <p className=" p-8 w-[390px] sm:w-[1200px] text-[12px] sm:text-[36px] font-black uppercase text-Offwhite  text-center">
+                            ALIVE WITH A VIBRANT POP SPIRIT BORN IN MANCHESTER AND KEPT ALIVE ACROSS THE DECADES, THE CHANEL 2023/34 MÉTIERS D’ART SHOW EMBRACES THE CREATIVE DIALOGUE BETWEEN GREAT BRITAIN AND THE HOUSE, SO DEAR TO GABRIELLE CHANEL AND TODAY TO ARTISTIC DIRECTOR OF THE FASHION COLLECTIONS, VIRGINIE VIARD. A TESTIMONY TO THE ARTISANAL PRECISION OF THE MÉTIERS D’ART, THE COLLECTION SHIMMERS AND SHINES WITH PLAYFUL NODS TO BRITISH MUSIC CULTURE AND CHANEL'S ART OF TAILORING. CONTRASTING AUTUMNAL AND VIVID COLOURS, ENCRUSTED TEXTURES, PURE SILHOUETTES AND CAREFREE ATTITUDES INVOKE A SOFT YET AUDACIOUS FEMININITY.
+                        </p>
+                    </div>
+</motion.div>
             </div>
         </section>
     );

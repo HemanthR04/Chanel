@@ -6,3 +6,6 @@ body {
   background-color: #121212;
   color: #fffff3;
 }
+div{
+  border: 1px solid red;
+}

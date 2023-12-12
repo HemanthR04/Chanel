@@ -4,8 +4,8 @@ import Metires from "./components/Metires";
 import Lenis from '@studio-freight/lenis'
 const lenis = new Lenis()
 
-lenis.on('scroll', (e) => {
-  console.log(e)
+lenis.on('scroll', () => {
+ 
 })
 
 function raf(time) {
