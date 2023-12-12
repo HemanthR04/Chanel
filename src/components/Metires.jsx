@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
 import chanel1 from '../assets/Chanel1.webp';

@@ -31,10 +31,10 @@ function Intro() {
                     <div className="intro-wrapper w-full h-screen flex items-center justify-center">
                         <p className="title font-GeneralSans text-[68px] sm:text-[128px] font-semibold">CHANEL</p>
                     </div>
-                    <div className="box1 h-[200px] sm:w-[197px] sm:h-[270px] bg-transparent rounded-2xl absolute top-28 sm:top-20 left-8 sm:left-48">
-                        <video src={Reel2} autoPlay muted loop className='object-cover w-full h-full overflow-hidden rounded-2xl'></video>
+                    <div className="box1  h-[200px] sm:w-[197px] sm:h-[270px] bg-transparent rounded-2xl absolute top-28 sm:top-20 -left-28 sm:left-48">
+                        <video  src={Reel2} autoPlay muted loop className='object-cover w-full h-full overflow-hidden rounded-2xl'></video>
                     </div>
-                    <div className="box2  w-[192px] h-[200px] bg-transparent rounded-2xl absolute bottom-8 left-20 sm:left-[500px]">
+                    <div className="box2  w-[192px] h-[200px] bg-transparent rounded-2xl absolute bottom-20 left-20 sm:left-[500px]">
                         <img src={Intro2} alt="" className='object-cover w-full h-full rounded-2xl' />
                     </div>
                     <div className="box3 w-[160px] h-[270px] bg-transparent rounded-2xl absolute top-40 -z-20 sm:top-20 brightness-50 sm:brightness-100 right-6 sm:right-48">
@@ -49,7 +49,7 @@ function Intro() {
                     <div className="box6  w-[100px] h-[100px] bg-transparent rounded-2xl absolute brightness-50 sm:brightness-100 top-10 sm:top-20 left-[200px] sm:left-[500px]">
                         <img src={Product3} alt="" className='object-cover w-full h-full rounded-2xl' />
                     </div>
-                    <div className="box7  w-[320px] h-[170px] bg-transparent rounded-2xl absolute top-[500px] -z-10 sm:z-0 brightness-50 sm:brightness-100 sm:top-20 sm:right-[540px]">
+                    <div className="box7  w-[320px] h-[170px] bg-transparent rounded-2xl absolute top-[100px] right-60 -z-10 sm:z-0 brightness-50 sm:brightness-100 sm:top-20 sm:right-[540px]">
                         <img src={Intro1} alt="" className='object-cover w-full h-full rounded-2xl' />
                     </div>
                     <div className="box8  w-[280px] h-[140px] bg-transparent rounded-2xl absolute bottom-[600px] sm:bottom-28 right-[-200px] brightness-50 sm:brightness-100 sm:right-[400px]">
