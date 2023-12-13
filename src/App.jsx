@@ -5,7 +5,8 @@ import Lenis from '@studio-freight/lenis';
 import { useRef,useEffect } from 'react';
 import {gsap} from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Artists2 from "./components/Artists2";
+import Jewels from "./components/Jewels";
+
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -23,17 +24,18 @@ function raf(time) {
 requestAnimationFrame(raf)
 function App() {
   const ref = useRef(null);
+  
     useEffect(() => {
         const element = ref.current;
         gsap.fromTo(
             element.querySelector(".wrapper"),
             {
                 backgroundColor:"#121212",
-                color:"#121212"
+                
             },
             {
                 backgroundColor:"#FFFFF3",
-                color:"#FFFFF3",
+                
                 scrollTrigger:{
                     trigger:element.querySelector(".jennie"),
                     start:"top bottom",
@@ -44,16 +46,17 @@ function App() {
             }
         )
       }, []);
+     
   return ( 
     <>
     
-    <div ref={ref} className="main bg-black text-black">
-      <div className="wrapper">
+    <div ref={ref} className="main bg-BlackBG text-black">
+      <div className="wrapper ">
     
     <Intro/>
     <Metires/>
     <Artists />
-    <Artists2/>
+    {/* <Jewels/> */}
     
     </div>
     </div>

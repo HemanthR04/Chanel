@@ -17,7 +17,7 @@ function Artists() {
                 scale: 1
             },
             {
-                scale: 1,
+                scale: 0.7,
                 scrollTrigger: {
                     trigger: element.querySelector(".jennie"),
                     start: "top center",
