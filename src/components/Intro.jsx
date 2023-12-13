@@ -29,7 +29,7 @@ function Intro() {
                         delay: 1
                     }}>
                     <div className="intro-wrapper w-full h-screen flex items-center justify-center">
-                        <p className="title font-GeneralSans text-[68px] sm:text-[128px] font-semibold">CHANEL</p>
+                        <p className="title font-GeneralSans text-Offwhite text-[68px] sm:text-[128px] font-semibold">CHANEL</p>
                     </div>
                     <div className="box1  h-[200px] sm:w-[197px] sm:h-[270px] bg-transparent rounded-2xl absolute top-28 sm:top-20 -left-28 sm:left-48">
                         <video  src={Reel2} autoPlay muted loop className='object-cover w-full h-full overflow-hidden rounded-2xl'></video>
@@ -37,7 +37,8 @@ function Intro() {
                     <div className="box2  w-[192px] h-[200px] bg-transparent rounded-2xl absolute bottom-20 left-20 sm:left-[500px]">
                         <img src={Intro2} alt="" className='object-cover w-full h-full rounded-2xl' />
                     </div>
-                    <div className="box3 w-[160px] h-[270px] bg-transparent rounded-2xl absolute top-40 -z-20 sm:top-20 brightness-50 sm:brightness-100 right-6 sm:right-48">
+                    
+                    <div className="box3 w-[160px] h-[270px] bg-transparent rounded-2xl absolute top-40 -z-20 sm:z-0 sm:top-20 brightness-50 sm:brightness-100 right-6 sm:right-48">
                         <img src={Intro3} alt="" className='object-cover w-full h-full rounded-2xl' />
                     </div>
                     <div className="box4  w-[100px] h-[100px] bg-transparent rounded-2xl absolute sm:bottom-32 bottom-[300px]  brightness-50 sm:brightness-100 -z-10 sm:z-0 sm:left-[300px]">
