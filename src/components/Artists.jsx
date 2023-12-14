@@ -52,7 +52,7 @@ function Artists() {
 
     return (
         <>
-            <div ref={ref} className="artist-wrapper w-full h-[400vh]">
+            <div ref={ref} className="artist-wrapper w-full h-[350vh]">
                 <div className="overylay jennie flex flex-col w-full  ">
                 <img src={J2} alt="" className=' w-full h-full sticky top-0 -z-10 J1' />
                 <img src={J3} alt="" className=' w-full h-full sticky top-0  J2' />

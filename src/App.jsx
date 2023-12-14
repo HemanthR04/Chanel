@@ -24,10 +24,10 @@ function raf(time) {
 requestAnimationFrame(raf)
 function App() {
   const ref = useRef(null);
-  
+  const tl = gsap.timeline();
     useEffect(() => {
         const element = ref.current;
-        gsap.fromTo(
+        tl.fromTo(
             element.querySelector(".wrapper"),
             {
                 backgroundColor:"#121212",
@@ -37,6 +37,7 @@ function App() {
                 backgroundColor:"#FFFFF3",
                 
                 scrollTrigger:{
+                 
                     trigger:element.querySelector(".jennie"),
                     start:"top bottom",
                     end:"bottom center ",
@@ -46,17 +47,40 @@ function App() {
             }
         )
       }, []);
+      
+  
+      useEffect(() => {
+          const element = ref.current;
+          gsap.fromTo(
+              element.querySelector(".wrapper"),
+              {
+                  backgroundColor:"#FFFFFA",
+                  
+              },
+              {
+                  backgroundColor:"#121212",
+                  immediateRender: false,
+                  scrollTrigger:{
+                      trigger:element.querySelector(".jewelBg"),
+                      start:"top bottom",
+                      end:"100px center ",
+                      scrub:true,
+                      markers:false
+                  }
+              }
+          )
+        }, []);
      
   return ( 
     <>
     
     <div ref={ref} className="main bg-BlackBG text-black">
-      <div className="wrapper ">
+      <div className="wrapper bg-BlackBG ">
     
     <Intro/>
     <Metires/>
     <Artists />
-    {/* <Jewels/> */}
+    <Jewels/>
     
     </div>
     </div>
