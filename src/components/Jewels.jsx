@@ -95,9 +95,9 @@ function Jewels() {
                     <div className="ringDescription flex flex-col items-center justify-around">
 
                         <div className='flex flex-col items-center justify-center text-Offwhite'>
-                            <p className=' m-8 text-4xl font-bold text-center'>GIVE WONDER,<br></br>
+                            <p className=' m-8 text-4xl font-bold '>GIVE WONDER,<br></br>
                                 GIVE CHANEL</p>
-                            <p className='m-8 text-md font-med'>COCO CRUSH, PREMIÈRE, N°5, CAMÉLIA, J12… LET YOURSELF BE GUIDED TO FIND YOUR DREAM GIFT FROM AMONG THE HOUSE’S WATCHES AND FINE JEWELRY CREATIONS. WHERE 18K BEIGE GOLD OR 18K YELLOW, PINK OR WHITE GOLD* AND DIAMONDS MEET.</p>
+                            <p className='m-8 text-md font-Sentient font-med'>COCO CRUSH, PREMIÈRE, N°5, CAMÉLIA, J12… LET YOURSELF BE GUIDED TO FIND YOUR DREAM GIFT FROM AMONG THE HOUSE’S WATCHES AND FINE JEWELRY CREATIONS. WHERE 18K BEIGE GOLD OR 18K YELLOW, PINK OR WHITE GOLD* AND DIAMONDS MEET.</p>
                             <button className='border-2  rounded-full font-semibold h-12 w-48 hover:bg-Offwhite hover:text-BlackBG'>SEE MORE</button>
                         </div>
                     </div>

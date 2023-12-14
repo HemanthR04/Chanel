@@ -17,7 +17,8 @@ export default {
       },
       fontFamily:{
         GeneralSans:"General Sans",
-        Pencerio:"Pencerio"
+        Pencerio:"Pencerio",
+        Sentient:"Sentient"
       }
     },
   },

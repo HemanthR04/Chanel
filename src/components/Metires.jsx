@@ -9,6 +9,7 @@ import chanel1 from '../assets/Chanel1.webp';
 import chanel2 from '../assets/Chanel2.webp';
 import chanel3 from '../assets/Chanel3.webp';
 import chanel4 from '../assets/Chanel4.webp';
+import Walk from '../assets/Walk.mp4'
 
 const Metires = () => {
 
@@ -78,10 +79,8 @@ const HorizontalScrollCarousel = () => {
                         <img src={chanel4} alt="" className="rounded-3xl" />
                     </div>
                     <div ref={ref}  className="metires-content sm:w-[1200px]">
-
-                        <p className="  p-8 w-[390px] sm:w-[1200px] text-[12px] sm:text-[36px] font-black uppercase text-Offwhite  text-center">
-                            ALIVE WITH A VIBRANT POP SPIRIT BORN IN MANCHESTER AND KEPT ALIVE ACROSS THE DECADES, THE CHANEL 2023/34 MÉTIERS D’ART SHOW EMBRACES THE CREATIVE DIALOGUE BETWEEN GREAT BRITAIN AND THE HOUSE, SO DEAR TO GABRIELLE CHANEL AND TODAY TO ARTISTIC DIRECTOR OF THE FASHION COLLECTIONS, VIRGINIE VIARD. A TESTIMONY TO THE ARTISANAL PRECISION OF THE MÉTIERS D’ART, THE COLLECTION SHIMMERS AND SHINES WITH PLAYFUL NODS TO BRITISH MUSIC CULTURE AND CHANEL'S ART OF TAILORING. CONTRASTING AUTUMNAL AND VIVID COLOURS, ENCRUSTED TEXTURES, PURE SILHOUETTES AND CAREFREE ATTITUDES INVOKE A SOFT YET AUDACIOUS FEMININITY.
-                        </p>
+                        
+                        <video src={Walk} autoPlay muted loop className="rounded-3xl" />
                         
                     </div>
 </motion.div>
