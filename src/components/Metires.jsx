@@ -67,20 +67,20 @@ const HorizontalScrollCarousel = () => {
                         <p className="font-Pencerio text-3xl sm:text-5xl text-right">by Virginie Viard</p>
                     </div>
                     <div className="metires-content w-[700px] sm:w-[1200px]">
-                        <img src={chanel1} alt="" className="rounded-3xl" />
+                        <img src={chanel1} alt="" className="" />
                     </div>
                     <div className="metires-content w-[700px] sm:w-[1200px]">
-                        <img src={chanel2} alt="" className="rounded-3xl" />
+                        <img src={chanel2} alt="" className="" />
                     </div>
                     <div className="metires-content w-[505px]">
-                        <img src={chanel3} alt="" className="rounded-3xl" />
+                        <img src={chanel3} alt="" className="" />
                     </div>
                     <div className="metires-content w-[505px]">
-                        <img src={chanel4} alt="" className="rounded-3xl" />
+                        <img src={chanel4} alt="" className="" />
                     </div>
                     <div ref={ref}  className="metires-content sm:w-[1200px]">
                         
-                        <video src={Walk} autoPlay muted loop className="rounded-3xl" />
+                        <video src={Walk} autoPlay muted loop className="" />
                         
                     </div>
 </motion.div>

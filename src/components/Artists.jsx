@@ -38,6 +38,7 @@ function Artists() {
             {
                 opacity:0,
                 scrollTrigger: {
+                    immediateRender:false,
                     trigger: element.querySelector(".J2"),
                     start: "top bottom",
                     end: "bottom center ",
@@ -54,9 +55,9 @@ function Artists() {
         <>
             <div ref={ref} className="artist-wrapper w-full h-[350vh]">
                 <div className="overylay jennie flex flex-col w-full  ">
-                <img src={J2} alt="" className=' w-full h-full sticky top-0 -z-10 J1' />
-                <img src={J3} alt="" className=' w-full h-full sticky top-0  J2' />
-                <img src={J1} alt="" className=' w-full h-full sticky top-0  J3' />
+                <img src={J2} alt="" className=' w-full h-full  sticky top-0 -z-10 J1' />
+                <img src={J3} alt="" className=' w-full h-full   sticky top-0  J2' />
+                <img src={J1} alt="" className=' w-full h-full  sticky top-0  J3' />
                 </div>
             </div>
 
