@@ -60,11 +60,11 @@ const HorizontalScrollCarousel = () => {
             <div className="sticky top-0 flex h-screen items-center overflow-hidden">
                 <motion.div style={{ x }} className="flex gap-12 items-center justify-center">
                     <div className="metires-content w-[480px] sm:w-[1200px]">
-                        <p className="font-Pencerio text-3xl sm:text-5xl">2023/24</p>
+                        <p className="font-Pencerio text-3xl text-Offwhite sm:text-5xl">2023/24</p>
                         <p className=" p-8 text-[48px] sm:text-[128px] font-black uppercase text-Offwhite ">
                             Métiers d'Art
                         </p>
-                        <p className="font-Pencerio text-3xl sm:text-5xl text-right">by Virginie Viard</p>
+                        <p className="font-Pencerio text-Offwhite text-3xl sm:text-5xl text-right">by Virginie Viard</p>
                     </div>
                     <div className="metires-content w-[700px] sm:w-[1200px]">
                         <img src={chanel1} alt="" className="" />
